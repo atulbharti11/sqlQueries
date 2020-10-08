@@ -24,4 +24,4 @@ Note: All emails are in lowercase.
 
 # Write your MySQL query statement below
 
-Select Email from Person GROUP BY Email having count(Email) >1
+Select Email from Person GROUP BY Email having count(Email) >1;
