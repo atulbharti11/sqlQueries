@@ -46,7 +46,6 @@ from (
                 dense_rank() over (partition by DepartmentId order by Salary DESC) as
                     DeptPayRank
         FROM Employee E) A
-    
         join  Department D
         ON A.DepartmentId = D.Id
         WHERE DeptPayRank <= 3;
