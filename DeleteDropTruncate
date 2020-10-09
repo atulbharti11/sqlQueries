@@ -1,0 +1,44 @@
+1. DELETE :
+Basically, it is a Data Manipulation Language Command (DML). 
+It is use to delete the one or more tuples of a table. 
+With the help of “DELETE” command we can either delete all the rows in one go or can delete row one by one. 
+i.e., we can use it as per the requirement or the condition using Where clause. 
+It is comparatively slower than TRUNCATE cmd.
+
+    SYNTAX –
+    If we want to delete all the rows of the table:
+    DELETE from ; 
+
+    SYNTAX –
+    If we want to delete the row of the table as per the condition then we use WHERE clause,
+    DELETE from  WHERE  ; 
+
+Note –
+Here we can use the “ROLLBACK” command to restore the tuple.
+
+2. DROP :
+It is a Data Definition Language Command (DDL). 
+It is use to drop the whole table. With the help of “DROP” command we can drop (delete) the whole structure in one go
+i.e. it removes the named elements of the schema. 
+By using this command the existence of the whole table is finished or say lost.
+
+    SYNTAX –
+    If we want to drop the table:
+    DROP table ;  
+
+Note –
+Here we can’t restore the table by using the “ROLLBACK” command.
+
+3. TRUNCATE :
+It is also a Data Definition Language Command (DDL). 
+It is use to delete all the rows of a relation (table) in one go.
+With the help of “TRUNCATE” command we can’t delete the single row as here WHERE clause is not used. 
+By using this command the existence of all the rows of the table is lost. 
+It is comparatively faster than delete command as it deletes all the rows fastly.
+
+    SYNTAX –
+    If we want to use truncate :
+    TRUNCATE  ;  
+
+Note –
+Here we can’t restore the tuples of the table by using the “ROLLBACK” command.
