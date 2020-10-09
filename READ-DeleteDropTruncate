@@ -1,8 +1,8 @@
 1. DELETE :
-Basically, it is a Data Manipulation Language Command (DML). 
-It is use to delete the one or more tuples of a table. 
-With the help of “DELETE” command we can either delete all the rows in one go or can delete row one by one. 
-i.e., we can use it as per the requirement or the condition using Where clause. 
+It is a Data Manipulation Language Command (DML).
+It is use to delete one or more tuples of a table.
+With the help of "DELETE" command, we can either delete all the rows in one go or can delete row one by one.
+i.e., we can use it as per the requirement or the condition using Where clause.
 It is comparatively slower than TRUNCATE cmd.
 
     SYNTAX –
@@ -42,3 +42,6 @@ It is comparatively faster than delete command as it deletes all the rows fastly
 
 Note –
 Here we can’t restore the tuples of the table by using the “ROLLBACK” command.
+
+
+Reference - geeksforgeeks
