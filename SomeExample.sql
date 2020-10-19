@@ -1,5 +1,4 @@
 
-
 -- simple query
 SELECT PRODUCT.*
 FROM PRODUCT;
